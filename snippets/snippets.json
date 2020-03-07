@@ -1,0 +1,242 @@
+{
+    "SimpleRecord": {
+        "prefix": "SimpleRecord",
+        "body": [
+            "SimpleRecord('$1');",
+            "$2"
+        ],
+        "description": "SimpleRecord class"
+    },
+    "addQuery": {
+        "prefix": ".addQuery",
+        "body": [
+            ".addQuery('$1', $2);",
+            "$3"
+        ],
+        "description": "condition for the selection"
+    },
+    "addOrCondition": {
+        "prefix": ".addOrCondition",
+        "body": [
+            ".addOrCondition('$1', $2);",
+            "$3"
+        ],
+        "description": "OR condition"
+    },
+    "addEncodedQuery": {
+        "prefix": ".addEncodedQuery",
+        "body": [
+            ".addEncodedQuery('$1');",
+            "$2"
+        ],
+        "description": "encoded query"
+    },
+    "canCreate": {
+        "prefix": ".canCreate",
+        "body": [
+            ".canCreate()$1"
+        ],
+        "description": "ACL permit inserting new record"
+    },
+    "canDelete": {
+        "prefix": ".canDelete",
+        "body": [
+            ".canDelete()$1"
+        ],
+        "description": "ACL permit deleting record"
+    },
+    "canRead": {
+        "prefix": ".canRead",
+        "body": [
+            ".canRead()$1"
+        ],
+        "description": "ACL permit reading record"
+    },
+    "canUpdate": {
+        "prefix": ".canUpdate",
+        "body": [
+            ".canUpdate()$1"
+        ],
+        "description": "ACL permit updating record"
+    },
+    "deleteMultiple": {
+        "prefix": ".deleteMultiple",
+        "body": [
+            ".deleteMultiple()$1"
+        ],
+        "description": "deleting multiple records"
+    },
+    "deleteRecord": {
+        "prefix": ".deleteRecord",
+        "body": [
+            ".deleteRecord()$1"
+        ],
+        "description": "deleting record"
+    },
+    "get": {
+        "prefix": ".get",
+        "body": [
+            ".get($1);",
+            "$2"
+        ],
+        "description": "load an object from a database"
+    },
+    "getAttributes": {
+        "prefix": ".getAttributes",
+        "body": [
+            ".getAttributes()$1"
+        ],
+        "description": "returns an object"
+    },
+    "getClassDisplayValue": {
+        "prefix": ".getClassDisplayValue",
+        "body": [
+            ".getClassDisplayValue()$1"
+        ],
+        "description": "returns the table title"
+    },
+    "getDisplayValue": {
+        "prefix": ".getDisplayValue",
+        "body": [
+            ".getDisplayValue('$1')"
+        ],
+        "description": "returns displayed field"
+    },
+    "getErrors": {
+        "prefix": ".getErrors",
+        "body": [
+            ".getErrors()$1"
+        ],
+        "description": "display error message"
+    },
+    "getLabel": {
+        "prefix": ".getLabel",
+        "body": [
+            ".getLabel('$1')"
+        ],
+        "description": "returns the field title"
+    },
+    "getTableName": {
+        "prefix": ".getTableName",
+        "body": [
+            ".getTableName()$1"
+        ],
+        "description": "returns the current table name"
+    },
+    "getValue": {
+        "prefix": ".getValue",
+        "body": [
+            ".getValue('$1')"
+        ],
+        "description": "returns the value of the object property"
+    },
+    "insert": {
+        "prefix": ".insert",
+        "body": [
+            ".insert()$1"
+        ],
+        "description": "creates a database record"
+    },
+    "matchesCondition": {
+        "prefix": ".matchesCondition",
+        "body": [
+            ".matchesCondition('$1')"
+        ],
+        "description": "current record meets the condition"
+    },
+    "next": {
+        "prefix": ".next",
+        "body": [
+            ".next()$1"
+        ],
+        "description": "returns the first record from the list"
+    },
+    "orderBy": {
+        "prefix": ".orderBy",
+        "body": [
+            ".orderBy('$1');",
+            "$2"
+        ],
+        "description": "sorts records"
+    },
+    "orderByDesc": {
+        "prefix": ".orderByDesc",
+        "body": [
+            ".orderByDesc('$1');",
+            "$2"
+        ],
+        "description": "sorts records"
+    },
+    "query": {
+        "prefix": ".query",
+        "body": [
+            ".query();",
+            "$1"
+        ],
+        "description": "runs a query"
+    },
+    "selectAttributes": {
+        "prefix": ".selectAttributes",
+        "body": [
+            ".selectAttributes(['$1']);",
+            "$2"
+        ],
+        "description": "optimize database queries"
+    },
+    "setAbortAction": {
+        "prefix": ".setAbortAction",
+        "body": [
+            ".setAbortAction(true);",
+            "$1"
+        ],
+        "description": "interrupted current operation (insert/update/delete)"
+    },
+    "setLimit": {
+        "prefix": ".setLimit",
+        "body": [
+            ".setLimit($1);",
+            "$2"
+        ],
+        "description": "limit for a number of records"
+    },
+    "setMultipleValue": {
+        "prefix": ".setMultipleValue",
+        "body": [
+            ".setMultipleValue('$1', $2);",
+            "$3"
+        ],
+        "description": "sets the properties values for every entry in the current selection"
+    },
+    "setValue": {
+        "prefix": ".setValue",
+        "body": [
+            ".setValue('$1' , $2);",
+            "$3"
+        ],
+        "description": "sets the value of the field"
+    },
+    "silentMode": {
+        "prefix": ".silentMode",
+        "body": [
+            ".silentMode();",
+            "$1"
+        ],
+        "description": "without executing any logic"
+    },
+    "update": {
+        "prefix": ".update",
+        "body": [
+            ".update();",
+            "$1"
+        ],
+        "description": "updates a database record"
+    },
+    "updateMultiple": {
+        "prefix": ".updateMultiple",
+        "body": [
+            ".updateMultiple();",
+            "$1"
+        ],
+        "description": "updates all the selection entries"
+    }
+}
