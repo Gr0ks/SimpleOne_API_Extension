@@ -5,7 +5,7 @@
             "SimpleRecord('$1');",
             "$2"
         ],
-        "description": "SimpleRecord class"
+        "description": "Server-Side API"
     },
     "addQuery": {
         "prefix": ".addQuery",
@@ -13,7 +13,7 @@
             ".addQuery('$1', $2);",
             "$3"
         ],
-        "description": "condition for the selection"
+        "description": "Server-Side API"
     },
     "addOrCondition": {
         "prefix": ".addOrCondition",
@@ -21,7 +21,7 @@
             ".addOrCondition('$1', $2);",
             "$3"
         ],
-        "description": "OR condition"
+        "description": "Server-Side API"
     },
     "addEncodedQuery": {
         "prefix": ".addEncodedQuery",
@@ -29,49 +29,49 @@
             ".addEncodedQuery('$1');",
             "$2"
         ],
-        "description": "encoded query"
+        "description": "Server-Side API"
     },
     "canCreate": {
         "prefix": ".canCreate",
         "body": [
             ".canCreate()$1"
         ],
-        "description": "ACL permit inserting new record"
+        "description": "Server-Side API"
     },
     "canDelete": {
         "prefix": ".canDelete",
         "body": [
             ".canDelete()$1"
         ],
-        "description": "ACL permit deleting record"
+        "description": "Server-Side API"
     },
     "canRead": {
         "prefix": ".canRead",
         "body": [
             ".canRead()$1"
         ],
-        "description": "ACL permit reading record"
+        "description": "Server-Side API"
     },
     "canUpdate": {
         "prefix": ".canUpdate",
         "body": [
             ".canUpdate()$1"
         ],
-        "description": "ACL permit updating record"
+        "description": "Server-Side API"
     },
     "deleteMultiple": {
         "prefix": ".deleteMultiple",
         "body": [
             ".deleteMultiple()$1"
         ],
-        "description": "deleting multiple records"
+        "description": "Server-Side API"
     },
     "deleteRecord": {
         "prefix": ".deleteRecord",
         "body": [
             ".deleteRecord()$1"
         ],
-        "description": "deleting record"
+        "description": "Server-Side API"
     },
     "get": {
         "prefix": ".get",
@@ -79,77 +79,77 @@
             ".get($1);",
             "$2"
         ],
-        "description": "load an object from a database"
+        "description": "Server-Side API"
     },
     "getAttributes": {
         "prefix": ".getAttributes",
         "body": [
             ".getAttributes()$1"
         ],
-        "description": "returns an object"
+        "description": "Server-Side API"
     },
     "getClassDisplayValue": {
         "prefix": ".getClassDisplayValue",
         "body": [
             ".getClassDisplayValue()$1"
         ],
-        "description": "returns the table title"
+        "description": "Server-Side API"
     },
     "getDisplayValue": {
         "prefix": ".getDisplayValue",
         "body": [
             ".getDisplayValue('$1')"
         ],
-        "description": "returns displayed field"
+        "description": "Server-Side API"
     },
     "getErrors": {
         "prefix": ".getErrors",
         "body": [
             ".getErrors()$1"
         ],
-        "description": "display error message"
+        "description": "Server-Side API"
     },
     "getLabel": {
         "prefix": ".getLabel",
         "body": [
             ".getLabel('$1')"
         ],
-        "description": "returns the field title"
+        "description": "Server-Side API"
     },
     "getTableName": {
         "prefix": ".getTableName",
         "body": [
             ".getTableName()$1"
         ],
-        "description": "returns the current table name"
+        "description": "Server-Side API"
     },
     "getValue": {
         "prefix": ".getValue",
         "body": [
             ".getValue('$1')"
         ],
-        "description": "returns the value of the object property"
+        "description": "Server-Side API"
     },
     "insert": {
         "prefix": ".insert",
         "body": [
             ".insert()$1"
         ],
-        "description": "creates a database record"
+        "description": "Server-Side API"
     },
     "matchesCondition": {
         "prefix": ".matchesCondition",
         "body": [
             ".matchesCondition('$1')"
         ],
-        "description": "current record meets the condition"
+        "description": "Server-Side API"
     },
     "next": {
         "prefix": ".next",
         "body": [
             ".next()$1"
         ],
-        "description": "returns the first record from the list"
+        "description": "Server-Side API"
     },
     "orderBy": {
         "prefix": ".orderBy",
@@ -157,7 +157,7 @@
             ".orderBy('$1');",
             "$2"
         ],
-        "description": "sorts records"
+        "description": "Server-Side API"
     },
     "orderByDesc": {
         "prefix": ".orderByDesc",
@@ -165,7 +165,7 @@
             ".orderByDesc('$1');",
             "$2"
         ],
-        "description": "sorts records"
+        "description": "Server-Side API"
     },
     "query": {
         "prefix": ".query",
@@ -173,7 +173,7 @@
             ".query();",
             "$1"
         ],
-        "description": "runs a query"
+        "description": "Server-Side API"
     },
     "selectAttributes": {
         "prefix": ".selectAttributes",
@@ -181,7 +181,7 @@
             ".selectAttributes(['$1']);",
             "$2"
         ],
-        "description": "optimize database queries"
+        "description": "Server-Side API"
     },
     "setAbortAction": {
         "prefix": ".setAbortAction",
@@ -189,7 +189,7 @@
             ".setAbortAction(true);",
             "$1"
         ],
-        "description": "interrupted current operation (insert/update/delete)"
+        "description": "Server-Side API"
     },
     "setLimit": {
         "prefix": ".setLimit",
@@ -197,7 +197,7 @@
             ".setLimit($1);",
             "$2"
         ],
-        "description": "limit for a number of records"
+        "description": "Server-Side API"
     },
     "setMultipleValue": {
         "prefix": ".setMultipleValue",
@@ -205,7 +205,7 @@
             ".setMultipleValue('$1', $2);",
             "$3"
         ],
-        "description": "sets the properties values for every entry in the current selection"
+        "description": "Server-Side API"
     },
     "setValue": {
         "prefix": ".setValue",
@@ -213,7 +213,7 @@
             ".setValue('$1' , $2);",
             "$3"
         ],
-        "description": "sets the value of the field"
+        "description": "Server-Side API"
     },
     "silentMode": {
         "prefix": ".silentMode",
@@ -221,7 +221,7 @@
             ".silentMode();",
             "$1"
         ],
-        "description": "without executing any logic"
+        "description": "Server-Side API"
     },
     "update": {
         "prefix": ".update",
@@ -229,7 +229,7 @@
             ".update();",
             "$1"
         ],
-        "description": "updates a database record"
+        "description": "Server-Side API"
     },
     "updateMultiple": {
         "prefix": ".updateMultiple",
@@ -237,6 +237,6 @@
             ".updateMultiple();",
             "$1"
         ],
-        "description": "updates all the selection entries"
+        "description": "Server-Side API"
     }
 }

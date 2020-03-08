@@ -1,0 +1,143 @@
+{
+    "addErrorMessage": {
+        "prefix": "ss.addErrorMessage",
+        "body": [
+            "ss.addErrorMessage($1);",
+            "$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "addInfoMessage": {
+        "prefix": "ss.addInfoMessage",
+        "body": [
+            "ss.addInfoMessage($1);",
+            "$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "debug": {
+        "prefix": "ss.debug",
+        "body": [
+            "ss.debug($1);",
+            "$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "error": {
+        "prefix": "ss.error",
+        "body": [
+            "ss.error($1);",
+            "$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "eventQueue": {
+        "prefix": "ss.eventQueue",
+        "body": [
+            "ss.eventQueue( '$1', $2)$3"
+        ],
+        "description": "Server-Side API"
+    },
+    "eventQueueScheduled": {
+        "prefix": "ss.eventQueueScheduled",
+        "body": [
+            "ss.eventQueueScheduled( '$1', $2, $3)$4"
+        ],
+        "description": "Server-Side API"
+    },
+    "generateUrlAction": {
+        "prefix": "ss.generateUrlAction",
+        "body": [
+            "ss.generateUrlAction( $1, $2, '$3')$4"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDocIdByIds": {
+        "prefix": "ss.getDocIdByIds",
+        "body": [
+            "ss.getDocIdByIds( $1, $2)$3"
+        ],
+        "description": "Server-Side API"
+    },
+    "getProperty": {
+        "prefix": "ss.getProperty",
+        "body": [
+            "ss.getProperty('$1')$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getSession": {
+        "prefix": "ss.getSession",
+        "body": [
+            "ss.getSession()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getUser": {
+        "prefix": "ss.getUser",
+        "body": [
+            "ss.getUser()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getUserID": {
+        "prefix": "ss.getUserID",
+        "body": [
+            "ss.getUserID()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getRecordIdByDocId": {
+        "prefix": "ss.getRecordIdByDocId",
+        "body": [
+            "ss.getRecordIdByDocId($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getTableIdByDocId": {
+        "prefix": "ss.getTableIdByDocId",
+        "body": [
+            "ss.getTableIdByDocId($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "hasRole": {
+        "prefix": "ss.hasRole",
+        "body": [
+            "ss.hasRole('$1')$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "info": {
+        "prefix": "ss.info",
+        "body": [
+            "ss.info($1);",
+            "$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "setProperty": {
+        "prefix": "ss.setProperty",
+        "body": [
+            "ss.setProperty( '$1', $2);",
+            "$3"
+        ],
+        "description": "Server-Side API"
+    },
+    "setRedirect": {
+        "prefix": "ss.setRedirect",
+        "body": [
+            "ss.setRedirect($1);",
+            "$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "warning": {
+        "prefix": "ss.warning",
+        "body": [
+            "ss.warning($1);",
+            "$2"
+        ],
+        "description": "Server-Side API"
+    }
+}
