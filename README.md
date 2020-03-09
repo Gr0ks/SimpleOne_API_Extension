@@ -9,16 +9,16 @@ This extension adds snippets for the server and client APIs used when writing sc
 
 ## Release Notes
 
-### 0.0.2
+### 0.0.3
 
- - New functionality added.
- - Marking of server and client API started.
+ - New Client-Side Classes added.
+ - New Server-Side Classes added.
 
 -----------------------------------------------------------------------------------------------------------
 
 ### For more information
 
-* [Петренко Илья](mailto:gr0x562@gmail.com?subject=Вопрос по simpleone-api-extension)
+* [Петренко Илья gr0x562@gmail.com]
 * [Репозиторий](https://github.com/Gr0ks/SimpleOne_API_Extension.git)
 
 **Enjoy!**
