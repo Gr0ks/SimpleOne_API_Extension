@@ -1,0 +1,20 @@
+{
+    "getMessage": {
+        "prefix": "s_i18n.getMessage",
+        "body": [
+            "s_i18n.getMessage('$1', (response) => {",
+            "  $2",
+            "});$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "getMessages": {
+        "prefix": "s_i18n.getMessages",
+        "body": [
+            "s_i18n.getMessages([$1], (response) => {",
+            "  $2",
+            "});$3"
+        ],
+        "description": "Client-Side API"
+    }
+}

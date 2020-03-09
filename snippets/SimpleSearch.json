@@ -1,0 +1,16 @@
+{
+    "SimpleSearch": {
+        "prefix": "SimpleSearch",
+        "body": [
+            "SimpleSearch();$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "search": {
+        "prefix": ".search",
+        "body": [
+            ".search('$1', [$2])$3"
+        ],
+        "description": "Client-Side API"
+    }
+}

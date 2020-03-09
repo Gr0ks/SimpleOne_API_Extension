@@ -18,7 +18,7 @@ This extension adds snippets for the server and client APIs used when writing sc
 
 ### For more information
 
-* [Петренко Илья](gr0x562@gmail.com)
+* [Петренко Илья](mailto:gr0x562@gmail.com?subject=Вопрос по simpleone-api-extension)
 * [Репозиторий](https://github.com/Gr0ks/SimpleOne_API_Extension.git)
 
 **Enjoy!**

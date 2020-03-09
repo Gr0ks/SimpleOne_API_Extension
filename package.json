@@ -2,7 +2,7 @@
     "name": "simpleone-api-extension",
     "displayName": "SimpleOne API Extension",
     "description": "makes coding faster and easier for using SimpleOne API",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "IlyaPetrenko",
     "repository": {
         "type": "git",
@@ -23,6 +23,42 @@
             {
                 "language": "javascript",
                 "path": "./snippets/SimpleSystem.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/SimpleWidget.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/SimpleForm.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/SimpleGo.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/SimpleUser.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/SimpleSearch.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/SimpleAjax.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/s_i18n.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/SimpleSession.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/SimpleTable.json"
             }
         ]
     }

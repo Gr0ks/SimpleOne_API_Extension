@@ -1,0 +1,212 @@
+{
+    "s_form": {
+        "prefix": "s_form",
+        "body": [
+            "s_form$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "addErrorMessage": {
+        "prefix": "s_form.addErrorMessage",
+        "body": [
+            "s_form.addErrorMessage($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "addInfoMessage": {
+        "prefix": "s_form.addInfoMessage",
+        "body": [
+            "s_form.addInfoMessage($1, duration: $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "addOption": {
+        "prefix": "s_form.addOption",
+        "body": [
+            "s_form.addOption($1, $2, $3)$4"
+        ],
+        "description": "Client-Side API"
+    },
+    "clearMessages": {
+        "prefix": "s_form.clearMessages",
+        "body": [
+            "s_form.clearMessages()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "clearOptions": {
+        "prefix": "s_form.clearOptions",
+        "body": [
+            "s_form.clearOptions('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "clearValue": {
+        "prefix": "s_form.clearValue",
+        "body": [
+            "s_form.clearValue('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "getComponent": {
+        "prefix": "s_form.getComponent",
+        "body": [
+            "s_form.getComponent('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "getLabelOf": {
+        "prefix": "s_form.getLabelOf",
+        "body": [
+            "s_form.getLabelOf('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "getSections": {
+        "prefix": "s_form.getSections",
+        "body": [
+            "s_form.getSections()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "getSectionNames": {
+        "prefix": "s_form.getSectionNames",
+        "body": [
+            "s_form.getSectionNames()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "getUniqueValue": {
+        "prefix": "s_form.getUniqueValue",
+        "body": [
+            "s_form.getUniqueValue()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "getValue": {
+        "prefix": "s_form.getValue",
+        "body": [
+            "s_form.getValue('$1')"
+        ],
+        "description": "Client-Side API"
+    },
+    "hideRelatedLists": {
+        "prefix": "s_form.hideRelatedLists",
+        "body": [
+            "s_form.hideRelatedLists()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "hideRelatedList": {
+        "prefix": "s_form.hideRelatedList",
+        "body": [
+            "s_form.hideRelatedList('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "isNewRecord": {
+        "prefix": "s_form.isNewRecord",
+        "body": [
+            "s_form.isNewRecord()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "isSectionVisible": {
+        "prefix": "s_form.isSectionVisible",
+        "body": [
+            "s_form.isSectionVisible('$1')"
+        ],
+        "description": "Client-Side API"
+    },
+    "removeOption": {
+        "prefix": "s_form.removeOption",
+        "body": [
+            "s_form.removeOption($1, $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "save": {
+        "prefix": "s_form.save",
+        "body": [
+            "s_form.save()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "setLabelOf": {
+        "prefix": "s_form.setLabelOf",
+        "body": [
+            "s_form.setLabelOf('$1', $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "setSectionMandatory": {
+        "prefix": "s_form.setSectionMandatory",
+        "body": [
+            "s_form.setSectionMandatory('$1' , $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "setMandatory": {
+        "prefix": "s_form.setMandatory",
+        "body": [
+            "s_form.setMandatory('$1' , $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "setReadOnly": {
+        "prefix": "s_form.setReadOnly",
+        "body": [
+            "s_form.setReadOnly('$1' , $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "setSectionDisplay": {
+        "prefix": "s_form.setSectionDisplay",
+        "body": [
+            "s_form.setSectionDisplay('$1', $2)"
+        ],
+        "description": "Client-Side API"
+    },
+    "setValue": {
+        "prefix": "s_form.setValue",
+        "body": [
+            "s_form.setValue('$1' , $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "setVisible": {
+        "prefix": "s_form.setVisible",
+        "body": [
+            "s_form.setVisible('$1' , $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "showFieldMsg": {
+        "prefix": "s_form.showFieldMsg",
+        "body": [
+            "s_form.showFieldMsg('$1', $2, $3)$4"
+        ],
+        "description": "Client-Side API"
+    },
+    "showRelatedLists": {
+        "prefix": "s_form.showRelatedLists",
+        "body": [
+            "s_form.showRelatedLists()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "showRelatedList": {
+        "prefix": "s_form.showRelatedList",
+        "body": [
+            "s_form.showRelatedList('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "submit": {
+        "prefix": "s_form.submit",
+        "body": [
+            "s_form.submit()$1"
+        ],
+        "description": "Client-Side API"
+    }
+}

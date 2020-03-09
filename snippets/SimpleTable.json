@@ -1,0 +1,23 @@
+{
+    "SimpleTable": {
+        "prefix": "SimpleTable",
+        "body": [
+            "SimpleTable('$1');$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getParentTables": {
+        "prefix": ".getParentTables",
+        "body": [
+            ".getParentTables()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getChildTables": {
+        "prefix": ".getChildTables",
+        "body": [
+            ".getChildTables()$1"
+        ],
+        "description": "Server-Side API"
+    }
+}

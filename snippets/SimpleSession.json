@@ -1,0 +1,9 @@
+{
+    "getClientIP": {
+        "prefix": ".getClientIP",
+        "body": [
+            ".getClientIP()$1"
+        ],
+        "description": "Server-Side API"
+    }
+}

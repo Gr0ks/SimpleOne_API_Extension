@@ -1,0 +1,114 @@
+{
+    "showData": {
+        "prefix": "s_widget.showData",
+        "body": [
+            "s_widget.showData()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "s_widget": {
+        "prefix": "s_widget",
+        "body": [
+            "s_widget$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "getFieldValue": {
+        "prefix": "s_widget.getFieldValue",
+        "body": [
+            "s_widget.getFieldValue('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "setFieldValue": {
+        "prefix": "s_widget.setFieldValue",
+        "body": [
+            "s_widget.setFieldValue('$1', $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "serverUpdate": {
+        "prefix": "s_widget.serverUpdate",
+        "body": [
+            "s_widget.serverUpdate();$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "getElements": {
+        "prefix": "s_widget.getElements",
+        "body": [
+            "s_widget.getElements();$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "addTemplate": {
+        "prefix": "s_widget.addTemplate",
+        "body": [
+            "s_widget.addTemplate($1, $2, $3, $4);$5"
+        ],
+        "description": "Client-Side API"
+    },
+    "removeTemplate": {
+        "prefix": "s_widget.removeTemplate",
+        "body": [
+            "s_widget.removeTemplate($1);$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "getId": {
+        "prefix": "s_widget.getId",
+        "body": [
+            "s_widget.getId()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "getOptionValue": {
+        "prefix": "s_widget.getOptionValue",
+        "body": [
+            "s_widget.getOptionValue('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "setOptionValue": {
+        "prefix": "s_widget.setOptionValue",
+        "body": [
+            "s_widget.setOptionValue('$1', $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "s_widgets": {
+        "prefix": "s_widgets",
+        "body": [
+            "s_widgets$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "s_widgets_getFieldValue": {
+        "prefix": "s_widgets.getFieldValue",
+        "body": [
+            "s_widgets.getFieldValue('$1', '$2');$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "s_widgets_setFieldValue": {
+        "prefix": "s_widgets.setFieldValue",
+        "body": [
+            "s_widgets.setFieldValue('$1', '$2', $3);$4"
+        ],
+        "description": "Client-Side API"
+    },
+    "getWidgets": {
+        "prefix": "s_widgets.getWidgets",
+        "body": [
+            "s_widgets.getWidgets()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "s_widget_custom": {
+        "prefix": ".s_widget_custom",
+        "body": [
+            ".s_widget_custom$1"
+        ],
+        "description": "Client-Side API"
+    }
+}

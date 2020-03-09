@@ -1,0 +1,37 @@
+{
+    "open": {
+        "prefix": "s_go.open",
+        "body": [
+            "s_go.open('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "openList": {
+        "prefix": "s_go.openList",
+        "body": [
+            "s_go.openList('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "openRecord": {
+        "prefix": "s_go.openRecord",
+        "body": [
+            "s_go.openRecord('$1', '$2')$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "reloadWindow": {
+        "prefix": "s_go.reloadWindow",
+        "body": [
+            "s_go.reloadWindow()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "getURL": {
+        "prefix": "s_go.getURL",
+        "body": [
+            "s_go.getURL()$1"
+        ],
+        "description": "Client-Side API"
+    }
+}

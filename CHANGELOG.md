@@ -5,14 +5,7 @@ Leave your wishes in the repository
 ## [Unreleased]
 
 - Client-Side API
-  _ s_i18n
-  _ SimpleAjax
-  _ SimpleForm
-  _ SimpleGo
   _ SimpleRecord
-  _ SimpleSearch
-  _ SimpleUser
-  _ SimpleWidget
 
 - Server-Side API
   _ SimpleAttachment
@@ -25,9 +18,6 @@ Leave your wishes in the repository
   _ SimpleRestRequest
   _ SimpleRestResponse
   _ SimpleSchedule
-  _ SimpleSession
-  _ SimpleSystem
-  _ SimpleTable
   _ SimpleTemplate
   _ SimpleTemplatePrinter
   _ SimpleTime
@@ -37,16 +27,29 @@ Leave your wishes in the repository
 
 
 
-# 0.0.1
-## [Added]
+## 0.0.1
+### [Added]
  - SimpleRecord Server-Side added
 
-# 0.0.2
-## [Added]
+## 0.0.2
+### [Added]
  - SimpleSystem Server-Side added
-## [Changed]
+
+### [Changed]
  - SimpleRecord Server-Side marking of server API
- 
+
+## 0.0.3
+### [Added]
+ - SimpleWidget Client-Side added
+ - SimpleForm Client-Side added
+ - SimpleGo Client-Side added
+ - SimpleUser Client-Side added
+ - SimpleSearch Client-Side added
+ - SimpleAjax Client-Side added
+ - s_i18n Client-Side added
+ - SimpleSession Server-Side added
+ - SimpleTable Server-Side added
+
 ## [Added]
 ## [Changed]
 ## [Deprecated]

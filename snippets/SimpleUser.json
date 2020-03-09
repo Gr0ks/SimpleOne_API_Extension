@@ -1,0 +1,9 @@
+{
+    "getFullName": {
+        "prefix": "s_user.getFullName",
+        "body": [
+            "s_user.getFullName()$1"
+        ],
+        "description": "Client-Side API"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "SimpleAjax": {
+        "prefix": "SimpleAjax",
+        "body": [
+            "SimpleAjax('$1');$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "addParam": {
+        "prefix": ".addParam",
+        "body": [
+            ".addParam('$1', $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "getXML": {
+        "prefix": ".getXML",
+        "body": [
+            ".getXML(() => {",
+            "  const answer = response.responseXML.documentElement.getAttribute('answer');",
+            "  $1",
+            "});"
+        ],
+        "description": "Client-Side API"
+    }
+}
