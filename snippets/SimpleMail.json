@@ -1,0 +1,16 @@
+{
+    "SimpleMail": {
+        "prefix": "SimpleMail",
+        "body": [
+            "SimpleMail('$1')$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "checkConnection": {
+        "prefix": ".checkConnection",
+        "body": [
+            ".checkConnection('$1')"
+        ],
+        "description": "Server-Side API"
+    }
+}

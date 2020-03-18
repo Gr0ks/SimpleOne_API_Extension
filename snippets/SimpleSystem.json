@@ -2,32 +2,28 @@
     "addErrorMessage": {
         "prefix": "ss.addErrorMessage",
         "body": [
-            "ss.addErrorMessage($1);",
-            "$2"
+            "ss.addErrorMessage($1)$2"
         ],
         "description": "Server-Side API"
     },
     "addInfoMessage": {
         "prefix": "ss.addInfoMessage",
         "body": [
-            "ss.addInfoMessage($1);",
-            "$2"
+            "ss.addInfoMessage($1)$2"
         ],
         "description": "Server-Side API"
     },
     "debug": {
         "prefix": "ss.debug",
         "body": [
-            "ss.debug($1);",
-            "$2"
+            "ss.debug($1)$2"
         ],
         "description": "Server-Side API"
     },
     "error": {
         "prefix": "ss.error",
         "body": [
-            "ss.error($1);",
-            "$2"
+            "ss.error($1)$2"
         ],
         "description": "Server-Side API"
     },
@@ -127,16 +123,14 @@
     "setRedirect": {
         "prefix": "ss.setRedirect",
         "body": [
-            "ss.setRedirect($1);",
-            "$2"
+            "ss.setRedirect($1)$2"
         ],
         "description": "Server-Side API"
     },
     "warning": {
         "prefix": "ss.warning",
         "body": [
-            "ss.warning($1);",
-            "$2"
+            "ss.warning($1)$2"
         ],
         "description": "Server-Side API"
     }

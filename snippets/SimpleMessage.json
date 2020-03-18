@@ -1,0 +1,16 @@
+{
+    "SimpleMessage": {
+        "prefix": "SimpleMessage",
+        "body": [
+            "SimpleMessage('$1')$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getMessage": {
+        "prefix": ".getMessage",
+        "body": [
+            ".getMessage('$1')"
+        ],
+        "description": "Server-Side API"
+    }
+}

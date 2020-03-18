@@ -2,7 +2,7 @@
     "SimpleAjax": {
         "prefix": "SimpleAjax",
         "body": [
-            "SimpleAjax('$1');$2"
+            "SimpleAjax('$1')$2"
         ],
         "description": "Client-Side API"
     },

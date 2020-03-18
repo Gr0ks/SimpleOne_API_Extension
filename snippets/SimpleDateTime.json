@@ -1,0 +1,219 @@
+{
+    "SimpleDateTime": {
+        "prefix": "SimpleDateTime",
+        "body": [
+            "SimpleDateTime($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "addDays": {
+        "prefix": ".addDays",
+        "body": [
+            ".addDays($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "addMonths": {
+        "prefix": ".addMonths",
+        "body": [
+            ".addMonths($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "addSeconds": {
+        "prefix": ".addSeconds",
+        "body": [
+            ".addSeconds($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "addWeeks": {
+        "prefix": ".addWeeks",
+        "body": [
+            ".addWeeks($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "addYears": {
+        "prefix": ".addYears",
+        "body": [
+            ".addYears($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "after": {
+        "prefix": ".after",
+        "body": [
+            ".after($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "before": {
+        "prefix": ".before",
+        "body": [
+            ".before($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "compareTo": {
+        "prefix": ".compareTo",
+        "body": [
+            ".compareTo($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "equals": {
+        "prefix": ".equals",
+        "body": [
+            ".equals($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDate": {
+        "prefix": ".getDate",
+        "body": [
+            ".getDate()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDaysInMonthLocalTime": {
+        "prefix": ".getDaysInMonthLocalTime",
+        "body": [
+            ".getDaysInMonthLocalTime()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDayOfMonthLocalTime": {
+        "prefix": ".getDayOfMonthLocalTime",
+        "body": [
+            ".getDayOfMonthLocalTime()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDayOfMonthUTC": {
+        "prefix": ".getDayOfMonthUTC",
+        "body": [
+            ".getDayOfMonthUTC()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDayOfWeekLocalTime": {
+        "prefix": ".getDayOfWeekLocalTime",
+        "body": [
+            ".getDayOfWeekLocalTime()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDayOfWeekUTC": {
+        "prefix": ".getDayOfWeekUTC",
+        "body": [
+            ".getDayOfWeekUTC()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDaysInMonthUTC": {
+        "prefix": ".getDaysInMonthUTC",
+        "body": [
+            ".getDaysInMonthUTC()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDisplayValue": {
+        "prefix": ".getDisplayValue",
+        "body": [
+            ".getDisplayValue()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getErrorMsg": {
+        "prefix": ".getErrorMsg",
+        "body": [
+            ".getErrorMsg()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getLocalDate": {
+        "prefix": ".getLocalDate",
+        "body": [
+            ".getLocalDate()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getLocalTime": {
+        "prefix": ".getLocalTime",
+        "body": [
+            ".getLocalTime()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getMonthLocalTime": {
+        "prefix": ".getMonthLocalTime",
+        "body": [
+            ".getMonthLocalTime()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getMonthUTC": {
+        "prefix": ".getMonthUTC",
+        "body": [
+            ".getMonthUTC()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getNumericValue": {
+        "prefix": ".getNumericValue",
+        "body": [
+            ".getNumericValue()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getTime": {
+        "prefix": ".getTime",
+        "body": [
+            ".getTime()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getWeekOfYearLocalTime": {
+        "prefix": ".getWeekOfYearLocalTime",
+        "body": [
+            ".getWeekOfYearLocalTime()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getWeekOfYearUTC": {
+        "prefix": ".getWeekOfYearUTC",
+        "body": [
+            ".getWeekOfYearUTC()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getYearLocalTime": {
+        "prefix": ".getYearLocalTime",
+        "body": [
+            ".getYearLocalTime()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getYearUTC": {
+        "prefix": ".getYearUTC",
+        "body": [
+            ".getYearUTC()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "isValid": {
+        "prefix": ".isValid",
+        "body": [
+            ".isValid()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "subtract": {
+        "prefix": ".subtract",
+        "body": [
+            ".subtract($1)$2"
+        ],
+        "description": "Server-Side API"
+    }
+}

@@ -2,32 +2,28 @@
     "SimpleRecord": {
         "prefix": "SimpleRecord",
         "body": [
-            "SimpleRecord('$1');",
-            "$2"
+            "SimpleRecord('$1')$2"
         ],
         "description": "Server-Side API"
     },
     "addQuery": {
         "prefix": ".addQuery",
         "body": [
-            ".addQuery('$1', $2);",
-            "$3"
+            ".addQuery('$1', $2)$3"
         ],
         "description": "Server-Side API"
     },
     "addOrCondition": {
         "prefix": ".addOrCondition",
         "body": [
-            ".addOrCondition('$1', $2);",
-            "$3"
+            ".addOrCondition('$1', $2)$3"
         ],
         "description": "Server-Side API"
     },
     "addEncodedQuery": {
         "prefix": ".addEncodedQuery",
         "body": [
-            ".addEncodedQuery('$1');",
-            "$2"
+            ".addEncodedQuery('$1')$2"
         ],
         "description": "Server-Side API"
     },
@@ -76,8 +72,7 @@
     "get": {
         "prefix": ".get",
         "body": [
-            ".get($1);",
-            "$2"
+            ".get($1)$2"
         ],
         "description": "Server-Side API"
     },
@@ -154,88 +149,77 @@
     "orderBy": {
         "prefix": ".orderBy",
         "body": [
-            ".orderBy('$1');",
-            "$2"
+            ".orderBy('$1')$2"
         ],
         "description": "Server-Side API"
     },
     "orderByDesc": {
         "prefix": ".orderByDesc",
         "body": [
-            ".orderByDesc('$1');",
-            "$2"
+            ".orderByDesc('$1')$2"
         ],
         "description": "Server-Side API"
     },
     "query": {
         "prefix": ".query",
         "body": [
-            ".query();",
-            "$1"
+            ".query()$1"
         ],
         "description": "Server-Side API"
     },
     "selectAttributes": {
         "prefix": ".selectAttributes",
         "body": [
-            ".selectAttributes(['$1']);",
-            "$2"
+            ".selectAttributes(['$1'])$2"
         ],
         "description": "Server-Side API"
     },
     "setAbortAction": {
         "prefix": ".setAbortAction",
         "body": [
-            ".setAbortAction(true);",
-            "$1"
+            ".setAbortAction(true)$1"
         ],
         "description": "Server-Side API"
     },
     "setLimit": {
         "prefix": ".setLimit",
         "body": [
-            ".setLimit($1);",
-            "$2"
+            ".setLimit($1)$2"
         ],
         "description": "Server-Side API"
     },
     "setMultipleValue": {
         "prefix": ".setMultipleValue",
         "body": [
-            ".setMultipleValue('$1', $2);",
-            "$3"
+            ".setMultipleValue('$1', $2)$3"
         ],
         "description": "Server-Side API"
     },
     "setValue": {
         "prefix": ".setValue",
         "body": [
-            ".setValue('$1' , $2);",
-            "$3"
+            ".setValue('$1' , $2)$3"
         ],
         "description": "Server-Side API"
     },
     "silentMode": {
         "prefix": ".silentMode",
         "body": [
-            ".silentMode();",
-            "$1"
+            ".silentMode()$1"
         ],
         "description": "Server-Side API"
     },
     "update": {
         "prefix": ".update",
         "body": [
-            ".update();",
-            "$1"
+            ".update()$1"
         ],
         "description": "Server-Side API"
     },
     "updateMultiple": {
         "prefix": ".updateMultiple",
         "body": [
-            ".updateMultiple();",
-            "$1"
+            ".updateMultiple()$1"
         ],
         "description": "Server-Side API"
     }

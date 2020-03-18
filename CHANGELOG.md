@@ -9,18 +9,13 @@ Leave your wishes in the repository
 
 - Server-Side API
   _ SimpleAttachment
-  _ SimpleDateTime
-  _ SimpleDuration
   _ SimpleEmailOutbound
   _ SimpleImport
-  _ SimpleMail
-  _ SimpleMessage
   _ SimpleRestRequest
   _ SimpleRestResponse
   _ SimpleSchedule
   _ SimpleTemplate
   _ SimpleTemplatePrinter
-  _ SimpleTime
   _ SimpleVcs
   _ SimpleWorkflow
   _ SimpleWS
@@ -49,6 +44,18 @@ Leave your wishes in the repository
  - s_i18n Client-Side added
  - SimpleSession Server-Side added
  - SimpleTable Server-Side added
+
+## 0.0.4
+### [Fixed]
+ - when inserting a single-line snippet, the cursor is no longer translated to a new line and the symbol ";" not added
+
+### [Added]
+ - SimpleMessage Server-Side added
+ - SimpleMail Server-Side added
+ - SimpleDateTime Server-Side added
+ - SimpleDuration Server-Side added
+ - SimpleTime Server-Side added
+
 
 ## [Added]
 ## [Changed]

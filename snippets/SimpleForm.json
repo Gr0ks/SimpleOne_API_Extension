@@ -86,7 +86,7 @@
     "getValue": {
         "prefix": "s_form.getValue",
         "body": [
-            "s_form.getValue('$1')"
+            "s_form.getValue('$1')$2"
         ],
         "description": "Client-Side API"
     },
@@ -114,7 +114,7 @@
     "isSectionVisible": {
         "prefix": "s_form.isSectionVisible",
         "body": [
-            "s_form.isSectionVisible('$1')"
+            "s_form.isSectionVisible('$1')$2"
         ],
         "description": "Client-Side API"
     },
@@ -142,42 +142,42 @@
     "setSectionMandatory": {
         "prefix": "s_form.setSectionMandatory",
         "body": [
-            "s_form.setSectionMandatory('$1' , $2)$3"
+            "s_form.setSectionMandatory('$1', $2)$3"
         ],
         "description": "Client-Side API"
     },
     "setMandatory": {
         "prefix": "s_form.setMandatory",
         "body": [
-            "s_form.setMandatory('$1' , $2)$3"
+            "s_form.setMandatory('$1', $2)$3"
         ],
         "description": "Client-Side API"
     },
     "setReadOnly": {
         "prefix": "s_form.setReadOnly",
         "body": [
-            "s_form.setReadOnly('$1' , $2)$3"
+            "s_form.setReadOnly('$1', $2)$3"
         ],
         "description": "Client-Side API"
     },
     "setSectionDisplay": {
         "prefix": "s_form.setSectionDisplay",
         "body": [
-            "s_form.setSectionDisplay('$1', $2)"
+            "s_form.setSectionDisplay('$1', $2)$3"
         ],
         "description": "Client-Side API"
     },
     "setValue": {
         "prefix": "s_form.setValue",
         "body": [
-            "s_form.setValue('$1' , $2)$3"
+            "s_form.setValue('$1', $2)$3"
         ],
         "description": "Client-Side API"
     },
     "setVisible": {
         "prefix": "s_form.setVisible",
         "body": [
-            "s_form.setVisible('$1' , $2)$3"
+            "s_form.setVisible('$1', $2)$3"
         ],
         "description": "Client-Side API"
     },

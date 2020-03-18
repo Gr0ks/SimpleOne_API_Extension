@@ -2,7 +2,7 @@
     "SimpleSearch": {
         "prefix": "SimpleSearch",
         "body": [
-            "SimpleSearch();$1"
+            "SimpleSearch()$1"
         ],
         "description": "Client-Side API"
     },

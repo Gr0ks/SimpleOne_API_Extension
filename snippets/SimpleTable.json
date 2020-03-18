@@ -2,7 +2,7 @@
     "SimpleTable": {
         "prefix": "SimpleTable",
         "body": [
-            "SimpleTable('$1');$2"
+            "SimpleTable('$1')$2"
         ],
         "description": "Server-Side API"
     },

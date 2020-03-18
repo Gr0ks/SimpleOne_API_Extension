@@ -9,9 +9,9 @@ This extension adds snippets for the server and client APIs used when writing sc
 
 ## Release Notes
 
-### 0.0.3
+### 0.0.4
 
- - New Client-Side Classes added.
+ - Make fix by issue#1.
  - New Server-Side Classes added.
 
 -----------------------------------------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+{
+    "SimpleTime": {
+        "prefix": "SimpleTime",
+        "body": [
+            "SimpleTime($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getByFormat": {
+        "prefix": ".getByFormat",
+        "body": [
+            ".getByFormat('$1')$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getHourLocalTime": {
+        "prefix": ".getHourLocalTime",
+        "body": [
+            ".getHourLocalTime()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getHourUTC": {
+        "prefix": ".getHourUTC",
+        "body": [
+            ".getHourUTC()$1"
+        ],
+        "description": "Server-Side API"
+    }
+}

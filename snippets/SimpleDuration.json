@@ -1,0 +1,58 @@
+{
+    "SimpleDuration": {
+        "prefix": "SimpleDuration",
+        "body": [
+            "SimpleDuration('$1')$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "add": {
+        "prefix": ".add",
+        "body": [
+            ".add($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getByFormat": {
+        "prefix": ".getByFormat",
+        "body": [
+            ".getByFormat('$1')$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDayPart": {
+        "prefix": ".getDayPart",
+        "body": [
+            ".getDayPart()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDisplayValue": {
+        "prefix": ".getDisplayValue",
+        "body": [
+            ".getDisplayValue()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDurationSeconds": {
+        "prefix": ".getDurationSeconds",
+        "body": [
+            ".getDurationSeconds()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getDurationValue": {
+        "prefix": ".getDurationValue",
+        "body": [
+            ".getDurationValue()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getRoundedDayPart": {
+        "prefix": ".getRoundedDayPart",
+        "body": [
+            ".getRoundedDayPart()$1"
+        ],
+        "description": "Server-Side API"
+    }
+}
