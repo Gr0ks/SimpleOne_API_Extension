@@ -9,7 +9,7 @@ This extension adds snippets for the server and client APIs used when writing sc
 
 ## Release Notes
 
-### 0.0.4
+### 0.0.5
 
  - Make fix by Problems with s_form.addInfoMessage method #2.
 
