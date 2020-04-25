@@ -56,6 +56,9 @@ Leave your wishes in the repository
  - SimpleDuration Server-Side added
  - SimpleTime Server-Side added
 
+## 0.0.5
+### [Fixed]
+ - s_form.addInfoMessage(message,duration) remove "duration:" from the second parameter
 
 ## [Added]
 ## [Changed]

@@ -16,7 +16,7 @@
     "addInfoMessage": {
         "prefix": "s_form.addInfoMessage",
         "body": [
-            "s_form.addInfoMessage($1, duration: $2)$3"
+            "s_form.addInfoMessage($1, $2)$3"
         ],
         "description": "Client-Side API"
     },

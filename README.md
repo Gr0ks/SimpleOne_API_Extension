@@ -11,8 +11,7 @@ This extension adds snippets for the server and client APIs used when writing sc
 
 ### 0.0.4
 
- - Make fix by issue#1.
- - New Server-Side Classes added.
+ - Make fix by Problems with s_form.addInfoMessage method #2.
 
 -----------------------------------------------------------------------------------------------------------
 
