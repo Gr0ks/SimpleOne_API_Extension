@@ -1,0 +1,100 @@
+{
+    "addAddress": {
+        "prefix": ".addAddress",
+        "body": [
+            ".addAddress($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "addAddressBcc": {
+        "prefix": ".addAddressBcc",
+        "body": [
+            ".addAddressBcc($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "addAddressCc": {
+        "prefix": ".addAddressCc",
+        "body": [
+            ".addAddressCc($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getAddresses": {
+        "prefix": ".getAddresses",
+        "body": [
+            ".getAddresses()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getAddressesBcc": {
+        "prefix": ".getAddressesBcc",
+        "body": [
+            ".getAddressesBcc()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getAddressesCc": {
+        "prefix": ".getAddressesCc",
+        "body": [
+            ".getAddressesCc()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getBody": {
+        "prefix": ".getBody",
+        "body": [
+            ".getBody()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getFrom": {
+        "prefix": ".getFrom",
+        "body": [
+            ".getFrom()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getReplyTo": {
+        "prefix": ".getReplyTo",
+        "body": [
+            ".getReplyTo()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getSubject": {
+        "prefix": ".getSubject",
+        "body": [
+            ".getSubject()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "setBody": {
+        "prefix": ".setBody",
+        "body": [
+            ".setBody($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "setFrom": {
+        "prefix": ".setFrom",
+        "body": [
+            ".setFrom($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "setReplyTo": {
+        "prefix": ".setReplyTo",
+        "body": [
+            ".setReplyTo($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "setSubject": {
+        "prefix": ".setSubject",
+        "body": [
+            ".setSubject($1)$2"
+        ],
+        "description": "Server-Side API"
+    }
+}

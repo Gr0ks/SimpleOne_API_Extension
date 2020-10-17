@@ -69,6 +69,7 @@ Leave your wishes in the repository
  - SimpleStorage Client-Side added
  - SimpleAttachment Server-Side added
  - SimpleCache Server-Side added
+ - SimpleEmailOutbound Server-Side added
 
 ## [Added]
 ## [Changed]
