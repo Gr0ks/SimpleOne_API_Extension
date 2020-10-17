@@ -79,6 +79,10 @@
             {
                 "language": "javascript",
                 "path": "./snippets/serverSideAPI/SimpleTime.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/clientSideAPI/SimpleEventBus.json"
             }
         ]
     }

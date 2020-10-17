@@ -1,0 +1,30 @@
+{
+    "on": {
+        "prefix": "SimpleEventBus.on",
+        "body": [
+            "SimpleEventBus.on('$1', ($2) => {$3})$4"
+        ],
+        "description": "Client-Side API"
+    },
+    "emit": {
+        "prefix": "SimpleEventBus.emit",
+        "body": [
+            "SimpleEventBus.emit('$1', $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "deleteEvent": {
+        "prefix": "SimpleEventBus.deleteEvent",
+        "body": [
+            "SimpleEventBus.deleteEvent('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "reset": {
+        "prefix": "SimpleEventBus.reset",
+        "body": [
+            "SimpleEventBus.reset()$1"
+        ],
+        "description": "Client-Side API"
+    }
+}

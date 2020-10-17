@@ -60,6 +60,10 @@ Leave your wishes in the repository
 ### [Fixed]
  - s_form.addInfoMessage(message,duration) remove "duration:" from the second parameter
 
+ ## 0.0.6
+ ### [Added]
+ - SimpleEventBus Client-Side added
+
 ## [Added]
 ## [Changed]
 ## [Deprecated]
