@@ -1,0 +1,16 @@
+{
+    "SimpleCache": {
+        "prefix": "SimpleCache",
+        "body": [
+            "SimpleCache()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "resetCacheSystemUrl": {
+        "prefix": ".resetCacheSystemUrl",
+        "body": [
+            ".resetCacheSystemUrl()$1"
+        ],
+        "description": "Server-Side API"
+    }
+}

@@ -68,6 +68,7 @@ Leave your wishes in the repository
  - SimpleModal Client-Side added
  - SimpleStorage Client-Side added
  - SimpleAttachment Server-Side added
+ - SimpleCache Server-Side added
 
 ## [Added]
 ## [Changed]
