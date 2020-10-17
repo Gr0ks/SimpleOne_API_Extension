@@ -111,6 +111,13 @@
         ],
         "description": "Server-Side API"
     },
+    "getRowCount": {
+        "prefix": ".getRowCount",
+        "body": [
+            ".getRowCount()$1"
+        ],
+        "description": "Server-Side API"
+    },
     "getTableName": {
         "prefix": ".getTableName",
         "body": [
@@ -125,10 +132,24 @@
         ],
         "description": "Server-Side API"
     },
+    "hasAttachment": {
+        "prefix": ".hasAttachment",
+        "body": [
+            ".hasAttachment()$1"
+        ],
+        "description": "Server-Side API"
+    },
     "insert": {
         "prefix": ".insert",
         "body": [
             ".insert()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "isTableVcsEnabled": {
+        "prefix": ".isTableVcsEnabled",
+        "body": [
+            ".isTableVcsEnabled()$1"
         ],
         "description": "Server-Side API"
     },

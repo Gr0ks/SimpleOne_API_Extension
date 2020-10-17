@@ -72,6 +72,7 @@ Leave your wishes in the repository
  - SimpleEmailOutbound Server-Side added
  - SimpleImage Server-Side added
  - SimpleImport Server-Side added
+ - SimpleRecord added new methods
 
 ## [Added]
 ## [Changed]
