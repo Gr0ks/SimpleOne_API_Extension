@@ -2,7 +2,7 @@
     "name": "simpleone-api-extension",
     "displayName": "SimpleOne API Extension",
     "description": "makes coding faster and easier for using SimpleOne API",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "IlyaPetrenko",
     "repository": {
         "type": "git",
