@@ -1,0 +1,65 @@
+{
+    "SimpleSchedule": {
+        "prefix": "SimpleSchedule",
+        "body": [
+            "SimpleSchedule($1, $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "duration": {
+        "prefix": ".duration",
+        "body": [
+            ".duration($1, $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "load": {
+        "prefix": ".load",
+        "body": [
+            ".load($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "getName": {
+        "prefix": ".getName",
+        "body": [
+            ".getName()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "isValid": {
+        "prefix": ".isValid",
+        "body": [
+            ".isValid()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "isInSchedule": {
+        "prefix": ".isInSchedule",
+        "body": [
+            ".isInSchedule($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "setTimeZone": {
+        "prefix": ".setTimeZone",
+        "body": [
+            ".setTimeZone($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "whenNext": {
+        "prefix": ".whenNext",
+        "body": [
+            ".whenNext($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "whenWillExpire": {
+        "prefix": ".whenWillExpire",
+        "body": [
+            ".whenWillExpire($1, $2)$3"
+        ],
+        "description": "Client-Side API"
+    }
+}

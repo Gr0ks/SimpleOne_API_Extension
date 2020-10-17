@@ -73,6 +73,7 @@ Leave your wishes in the repository
  - SimpleImage Server-Side added
  - SimpleImport Server-Side added
  - SimpleRecord added new methods
+ - SimpleSchedule Server-Side added
 
 ## [Added]
 ## [Changed]
