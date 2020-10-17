@@ -1,0 +1,44 @@
+{
+    "s_modal": {
+        "prefix": "s_modal",
+        "body": [
+            "s_modal$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "renderPageTemplate": {
+        "prefix": "s_modal.renderPageTemplate",
+        "body": [
+            "s_modal.renderPageTemplate('$1', '$2')$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "renderTemplate": {
+        "prefix": "s_modal.renderTemplate",
+        "body": [
+            "s_modal.renderTemplate($1, $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "setShow": {
+        "prefix": "s_modal.setShow",
+        "body": [
+            "s_modal.setShow($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "setTitle": {
+        "prefix": "s_modal.setTitle",
+        "body": [
+            "s_modal.setTitle($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "setWidth": {
+        "prefix": "s_modal.setWidth",
+        "body": [
+            "s_modal.setWidth($1)$2"
+        ],
+        "description": "Client-Side API"
+    }
+}
