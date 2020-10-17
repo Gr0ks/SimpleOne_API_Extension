@@ -9,9 +9,22 @@ This extension adds snippets for the server and client APIs used when writing sc
 
 ## Release Notes
 
-### 0.0.5
-
- - Make fix by Problems with s_form.addInfoMessage method #2.
+## 0.0.6
+ ### [Added]
+ - SimpleEventBus Client-Side added
+ - SimpleForm added new methods
+ - SimpleList Client-Side added
+ - SimpleModal Client-Side added
+ - SimpleStorage Client-Side added
+ - SimpleAttachment Server-Side added
+ - SimpleCache Server-Side added
+ - SimpleEmailOutbound Server-Side added
+ - SimpleImage Server-Side added
+ - SimpleImport Server-Side added
+ - SimpleRecord added new methods
+ - SimpleSchedule Server-Side added
+ - SimpleSystem added new methods
+ - SimpleTemplate Server-Side added
 
 -----------------------------------------------------------------------------------------------------------
 

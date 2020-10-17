@@ -18,11 +18,15 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/serverSideAPI/SimpleRecord.json"
+                "path": "./snippets/clientSideAPI/SimpleAjax.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/serverSideAPI/SimpleSystem.json"
+                "path": "./snippets/clientSideAPI/SimpleEventBus.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/clientSideAPI/s_i18n.json"
             },
             {
                 "language": "javascript",
@@ -42,15 +46,27 @@
             },
             {
                 "language": "javascript",
+                "path": "./snippets/clientSideAPI/SimpleList.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/clientSideAPI/SimpleModal.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/clientSideAPI/SimpleStorage.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/serverSideAPI/SimpleRecord.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/serverSideAPI/SimpleSystem.json"
+            },
+            {
+                "language": "javascript",
                 "path": "./snippets/serverSideAPI/SimpleSearch.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/clientSideAPI/SimpleAjax.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/clientSideAPI/s_i18n.json"
             },
             {
                 "language": "javascript",
@@ -82,7 +98,31 @@
             },
             {
                 "language": "javascript",
-                "path": "./snippets/clientSideAPI/SimpleEventBus.json"
+                "path": "./snippets/serverSideAPI/SimpleAttachment.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/serverSideAPI/SimpleCache.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/serverSideAPI/SimpleEmailOutbound.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/serverSideAPI/SimpleImage.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/serverSideAPI/SimpleImport.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/serverSideAPI/SimpleSchedule.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/serverSideAPI/SimpleTemplate.json"
             }
         ]
     }
