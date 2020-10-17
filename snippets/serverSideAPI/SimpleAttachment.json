@@ -1,0 +1,79 @@
+{
+    "SimpleAttachment": {
+        "prefix": "SimpleAttachment",
+        "body": [
+            "SimpleAttachment()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "base64Decode": {
+        "prefix": ".base64Decode",
+        "body": [
+            ".base64Decode($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "base64Encode": {
+        "prefix": ".base64Encode",
+        "body": [
+            ".base64Encode($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "copy": {
+        "prefix": ".copy",
+        "body": [
+            ".copy($1, $2, $3, $4)$5"
+        ],
+        "description": "Server-Side API"
+    },
+    "deleteAttachment": {
+        "prefix": ".deleteAttachment",
+        "body": [
+            ".deleteAttachment($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getAttachmentUrlById": {
+        "prefix": ".getAttachmentUrlById",
+        "body": [
+            ".getAttachmentUrlById($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "getContent": {
+        "prefix": ".getContent",
+        "body": [
+            ".getContent($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "readBase64": {
+        "prefix": ".readBase64",
+        "body": [
+            ".readBase64($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "rename": {
+        "prefix": ".rename",
+        "body": [
+            ".rename($1, $2)$3"
+        ],
+        "description": "Server-Side API"
+    },
+    "write": {
+        "prefix": ".write",
+        "body": [
+            ".write($1, $2, $3, $4)$5"
+        ],
+        "description": "Server-Side API"
+    },
+    "writeBase64": {
+        "prefix": ".writeBase64",
+        "body": [
+            ".writeBase64($1, $2, $3, $4)$5"
+        ],
+        "description": "Server-Side API"
+    }
+}

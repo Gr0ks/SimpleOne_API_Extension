@@ -67,6 +67,7 @@ Leave your wishes in the repository
  - SimpleList Client-Side added
  - SimpleModal Client-Side added
  - SimpleStorage Client-Side added
+ - SimpleAttachment Server-Side added
 
 ## [Added]
 ## [Changed]
