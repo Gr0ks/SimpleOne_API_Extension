@@ -1,0 +1,44 @@
+{
+    "SimpleImport": {
+        "prefix": "SimpleImport",
+        "body": [
+            "SimpleImport()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "getErrorMessage": {
+        "prefix": ".getErrorMessage",
+        "body": [
+            ".getErrorMessage()$1"
+        ],
+        "description": "Server-Side API"
+    },
+    "import": {
+        "prefix": ".import",
+        "body": [
+            ".import($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "importTransform": {
+        "prefix": ".importTransform",
+        "body": [
+            ".importTransform($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "testLdapConnection": {
+        "prefix": ".testLdapConnection",
+        "body": [
+            ".testLdapConnection($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "transform": {
+        "prefix": ".transform",
+        "body": [
+            ".transform($1)$2"
+        ],
+        "description": "Server-Side API"
+    }
+}

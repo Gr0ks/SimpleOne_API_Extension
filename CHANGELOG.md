@@ -71,6 +71,7 @@ Leave your wishes in the repository
  - SimpleCache Server-Side added
  - SimpleEmailOutbound Server-Side added
  - SimpleImage Server-Side added
+ - SimpleImport Server-Side added
 
 ## [Added]
 ## [Changed]
