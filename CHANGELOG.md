@@ -64,7 +64,7 @@ Leave your wishes in the repository
  ### [Added]
  - SimpleEventBus Client-Side added
  - SimpleForm added new methods
- 
+ - SimpleList Client-Side added
 
 ## [Added]
 ## [Changed]

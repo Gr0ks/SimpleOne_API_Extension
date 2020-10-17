@@ -1,0 +1,37 @@
+{
+    "deleteRows": {
+        "prefix": "s_list.deleteRows",
+        "body": [
+            "s_list.deleteRows($1, $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "getCheckedRow": {
+        "prefix": "s_list.getCheckedRow",
+        "body": [
+            "s_list.getCheckedRow($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "getQuery": {
+        "prefix": "s_list.getQuery",
+        "body": [
+            "s_list.getQuery()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "getTablesName": {
+        "prefix": "s_list.getTablesName",
+        "body": [
+            "s_list.getTablesName()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "refresh": {
+        "prefix": "s_list.refresh",
+        "body": [
+            "s_list.refresh($1)$2"
+        ],
+        "description": "Client-Side API"
+    }
+}
