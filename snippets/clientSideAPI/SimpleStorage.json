@@ -1,0 +1,51 @@
+{
+    "setItem": {
+        "prefix": "SimpleStorage.setItem",
+        "body": [
+            "SimpleStorage.setItem($1, $2)$3"
+        ],
+        "description": "Client-Side API"
+    },
+    "getItem": {
+        "prefix": "SimpleStorage.getItem",
+        "body": [
+            "SimpleStorage.getItem($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "getKeys": {
+        "prefix": "SimpleStorage.getKeys",
+        "body": [
+            "SimpleStorage.getKeys()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "getEntries": {
+        "prefix": "SimpleStorage.getEntries",
+        "body": [
+            "SimpleStorage.getEntries()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "hasItem": {
+        "prefix": "SimpleStorage.hasItem",
+        "body": [
+            "SimpleStorage.hasItem($1)$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "getSize": {
+        "prefix": "SimpleStorage.getSize",
+        "body": [
+            "SimpleStorage.getSize()$1"
+        ],
+        "description": "Client-Side API"
+    },
+    "reset": {
+        "prefix": "SimpleStorage.reset",
+        "body": [
+            "SimpleStorage.reset()$1"
+        ],
+        "description": "Client-Side API"
+    }
+}

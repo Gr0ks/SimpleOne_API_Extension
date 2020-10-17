@@ -66,6 +66,7 @@ Leave your wishes in the repository
  - SimpleForm added new methods
  - SimpleList Client-Side added
  - SimpleModal Client-Side added
+ - SimpleStorage Client-Side added
 
 ## [Added]
 ## [Changed]
