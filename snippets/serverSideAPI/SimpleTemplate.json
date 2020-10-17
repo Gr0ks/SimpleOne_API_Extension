@@ -1,0 +1,44 @@
+{
+    "SimpleTemplate": {
+        "prefix": "SimpleTemplate",
+        "body": [
+            "SimpleTemplate($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "applyTo": {
+        "prefix": ".applyTo",
+        "body": [
+            ".applyTo($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "applyToByTemplateField": {
+        "prefix": ".applyToByTemplateField",
+        "body": [
+            ".applyToByTemplateField($1, $2)$3"
+        ],
+        "description": "Server-Side API"
+    },
+    "createBySimpleRecord": {
+        "prefix": ".createBySimpleRecord",
+        "body": [
+            ".createBySimpleRecord($1, $2)$3"
+        ],
+        "description": "Server-Side API"
+    },
+    "createByTemplateData": {
+        "prefix": ".createByTemplateData",
+        "body": [
+            ".createByTemplateData($1, $2, $3)$4"
+        ],
+        "description": "Server-Side API"
+    },
+    "createByTemplateField": {
+        "prefix": ".createByTemplateField",
+        "body": [
+            ".createByTemplateField($1, $2, $3)$4"
+        ],
+        "description": "Server-Side API"
+    }
+}

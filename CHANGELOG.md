@@ -75,6 +75,7 @@ Leave your wishes in the repository
  - SimpleRecord added new methods
  - SimpleSchedule Server-Side added
  - SimpleSystem added new methods
+ - SimpleTemplate Server-Side added
 
 ## [Added]
 ## [Changed]
