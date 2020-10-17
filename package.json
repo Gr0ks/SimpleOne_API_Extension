@@ -18,67 +18,67 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleRecord.json"
+                "path": "./snippets/serverSideAPI/SimpleRecord.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleSystem.json"
+                "path": "./snippets/serverSideAPI/SimpleSystem.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleWidget.json"
+                "path": "./snippets/clientSideAPI/SimpleWidget.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleForm.json"
+                "path": "./snippets/clientSideAPI/SimpleForm.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleGo.json"
+                "path": "./snippets/clientSideAPI/SimpleGo.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleUser.json"
+                "path": "./snippets/clientSideAPI/SimpleUser.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleSearch.json"
+                "path": "./snippets/serverSideAPI/SimpleSearch.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleAjax.json"
+                "path": "./snippets/clientSideAPI/SimpleAjax.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/s_i18n.json"
+                "path": "./snippets/clientSideAPI/s_i18n.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleSession.json"
+                "path": "./snippets/serverSideAPI/SimpleSession.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleTable.json"
+                "path": "./snippets/serverSideAPI/SimpleTable.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleMessage.json"
+                "path": "./snippets/serverSideAPI/SimpleMessage.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleMail.json"
+                "path": "./snippets/serverSideAPI/SimpleMail.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleDateTime.json"
+                "path": "./snippets/serverSideAPI/SimpleDateTime.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleDuration.json"
+                "path": "./snippets/serverSideAPI/SimpleDuration.json"
             },
             {
                 "language": "javascript",
-                "path": "./snippets/SimpleTime.json"
+                "path": "./snippets/serverSideAPI/SimpleTime.json"
             }
         ]
     }
