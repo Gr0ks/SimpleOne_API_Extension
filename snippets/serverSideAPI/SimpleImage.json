@@ -1,0 +1,30 @@
+{
+    "SimpleImage": {
+        "prefix": "SimpleImage",
+        "body": [
+            "SimpleImage()"
+        ],
+        "description": "Server-Side API"
+    },
+    "getImageUrlById": {
+        "prefix": ".getImageUrlById",
+        "body": [
+            ".getImageUrlById($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "readImageBase64": {
+        "prefix": ".readImageBase64",
+        "body": [
+            ".readImageBase64($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "writeImageBase64": {
+        "prefix": ".writeImageBase64",
+        "body": [
+            ".writeImageBase64($1, $2, $3, $4)$5"
+        ],
+        "description": "Server-Side API"
+    }
+}

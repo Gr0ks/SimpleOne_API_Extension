@@ -70,6 +70,7 @@ Leave your wishes in the repository
  - SimpleAttachment Server-Side added
  - SimpleCache Server-Side added
  - SimpleEmailOutbound Server-Side added
+ - SimpleImage Server-Side added
 
 ## [Added]
 ## [Changed]
