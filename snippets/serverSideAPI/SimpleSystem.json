@@ -13,10 +13,24 @@
         ],
         "description": "Server-Side API"
     },
+    "info": {
+        "prefix": "ss.info",
+        "body": [
+            "ss.info($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
     "debug": {
         "prefix": "ss.debug",
         "body": [
             "ss.debug($1)$2"
+        ],
+        "description": "Server-Side API"
+    },
+    "warning": {
+        "prefix": "ss.warning",
+        "body": [
+            "ss.warning($1)$2"
         ],
         "description": "Server-Side API"
     },
@@ -104,14 +118,6 @@
         ],
         "description": "Server-Side API"
     },
-    "info": {
-        "prefix": "ss.info",
-        "body": [
-            "ss.info($1);",
-            "$2"
-        ],
-        "description": "Server-Side API"
-    },
     "setProperty": {
         "prefix": "ss.setProperty",
         "body": [
@@ -127,10 +133,10 @@
         ],
         "description": "Server-Side API"
     },
-    "warning": {
-        "prefix": "ss.warning",
+    "importIncludeScript": {
+        "prefix": "ss.importIncludeScript",
         "body": [
-            "ss.warning($1)$2"
+            "ss.importIncludeScript($1)$2"
         ],
         "description": "Server-Side API"
     }
