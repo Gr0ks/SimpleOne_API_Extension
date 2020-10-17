@@ -23,7 +23,7 @@
     "addOption": {
         "prefix": "s_form.addOption",
         "body": [
-            "s_form.addOption($1, $2, $3)$4"
+            "s_form.addOption($1, $2)$3"
         ],
         "description": "Client-Side API"
     },
@@ -87,6 +87,20 @@
         "prefix": "s_form.getValue",
         "body": [
             "s_form.getValue('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "getDisplayValue": {
+        "prefix": "s_form.getDisplayValue",
+        "body": [
+            "s_form.getDisplayValue('$1')$2"
+        ],
+        "description": "Client-Side API"
+    },
+    "hideFieldMsg": {
+        "prefix": "s_form.hideFieldMsg",
+        "body": [
+            "s_form.hideFieldMsg($1)$2"
         ],
         "description": "Client-Side API"
     },

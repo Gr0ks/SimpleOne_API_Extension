@@ -63,6 +63,8 @@ Leave your wishes in the repository
  ## 0.0.6
  ### [Added]
  - SimpleEventBus Client-Side added
+ - SimpleForm added new methods
+ 
 
 ## [Added]
 ## [Changed]
